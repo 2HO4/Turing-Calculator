@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1bee6dca-7f46-45e6-a084-379feefe0de9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/TuringCalculator/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/TuringCalculator/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +167,7 @@
       <updated>1681156232356</updated>
       <workItem from="1681156234302" duration="6713000" />
       <workItem from="1681163203853" duration="5554000" />
-      <workItem from="1681210760652" duration="19575000" />
+      <workItem from="1681210760652" duration="19764000" />
     </task>
     <servers />
   </component>
