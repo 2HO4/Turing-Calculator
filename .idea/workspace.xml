@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bee6dca-7f46-45e6-a084-379feefe0de9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Tests/test_Calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/S1 project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/S1 project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/TuringCalculator/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TuringCalculator/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/TuringCalculator/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
@@ -25,21 +28,23 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2OFVHmqhuCNgXXKtDRIebAD9JuX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ToolWindowRun.ShowToolbar": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/OneDrive - UvA/Misc/Dang Khoa - Personal/Learn/Data Science/Turing/1 Data Wrangling with Python/S1 project/calculator/env_mamba",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/OneDrive - UvA/Misc/Dang Khoa - Personal/Learn/Data Science/Turing/1 Data Wrangling with Python/S1 project/calculator/env_mamba&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python tests.Doctests in Calculator">
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="S1 project" />
@@ -104,7 +109,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Doctests in Calculator" />
-        <item itemvalue="Python tests.Doctests in Calculator (1)" />
         <item itemvalue="Python.__init__" />
       </list>
     </recent_temporary>
@@ -118,7 +122,8 @@
       <option name="presentableId" value="Default" />
       <updated>1681156232356</updated>
       <workItem from="1681156234302" duration="6713000" />
-      <workItem from="1681163203853" duration="2443000" />
+      <workItem from="1681163203853" duration="5554000" />
+      <workItem from="1681210760652" duration="299000" />
     </task>
     <servers />
   </component>
