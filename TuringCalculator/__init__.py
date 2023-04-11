@@ -9,6 +9,8 @@
     - Division: divide two numbers and return the result.
     - Find root: take the n-th root of a number and return the result.
     - Reset memory: reset the calculator's memory to 0.
+
+    Its memory is limited at 1.7976931348623157e+308
 """
 
 __version__ = "0.0.1"
@@ -16,9 +18,13 @@ __version__ = "0.0.1"
 
 # START --------
 import doctest
+from numbers import Number
 
 
 # EXECUTION ----
+LIMIT = 1.7976931348623157e+308
+
+
 class Calculator(object):
     """
     A simple calculator that can perform the following operations:
@@ -66,31 +72,46 @@ class Calculator(object):
         """
         Usage: increase current value by <term>
         """
-        self.__value += term
+        if not isinstance(term, Number):
+            raise TypeError('Invalid value to add with.')
+        self.__value += float(term)
 
     def subtract(self, term: float) -> None:
         """
         Increase current value by <term>
         """
-        self.__value -= term
+        if not isinstance(term, Number):
+            raise TypeError('Invalid value to subtract from.')
+        self.__value -= float(term)
 
     def multiply(self, factor: float) -> None:
         """
         Usage: find the  current value by <term>
         """
-        self.__value *= factor
+        if not isinstance(factor, Number):
+            raise TypeError('Invalid value to multiply with.')
+        self.__value *= float(factor)
 
     def divided(self, divisor: float) -> None:
         """
         Usage: divide current value by <divisor>
         """
-        self.__value /= divisor
+        if not isinstance(divisor, Number):
+            raise TypeError('Invalid value to divide by.')
+        elif divisor == 0:
+            raise ZeroDivisionError('Divisor cannot be 0.')
+        self.__value /= float(divisor)
 
     def root(self, degree: float) -> None:
         """
         Usage: find the <degree>-th root of current value
         """
-        self.__value **= 1/degree
+        if not isinstance(degree, Number):
+            raise TypeError('Invalid value as root.')
+        try:
+            self.__value **= 1/float(degree)
+        except OverflowError:
+            self.__value = LIMIT
 
     def reset(self) -> None:
         """
