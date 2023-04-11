@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bee6dca-7f46-45e6-a084-379feefe0de9" name="Changes" comment="" />
+    <list default="true" id="1bee6dca-7f46-45e6-a084-379feefe0de9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/TuringCalculator/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +37,7 @@
     "ToolWindowRun.ShowToolbar": "false",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/OneDrive - UvA/Misc/Dang Khoa - Personal/Learn/Data Science/Turing/1 Data Wrangling with Python/S1 project/calculator/env_mamba",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RunManager" selected="Python tests.Doctests in Calculator">
@@ -59,12 +63,12 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in Calculator (1)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctests in Calculator" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="S1 project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/calculator" />
+      <option name="WORKING_DIRECTORY" value="D:\OneDrive - UvA\Misc\Dang Khoa - Personal\Learn\Data Science\Turing\1 Data Wrangling with Python\S1 project\TuringCalculator" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -83,7 +87,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/calculator" />
+      <option name="WORKING_DIRECTORY" value="D:\OneDrive - UvA\Misc\Dang Khoa - Personal\Learn\Data Science\Turing\1 Data Wrangling with Python\S1 project\TuringCalculator" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -114,7 +118,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681156232356</updated>
       <workItem from="1681156234302" duration="6713000" />
-      <workItem from="1681163203853" duration="702000" />
+      <workItem from="1681163203853" duration="2443000" />
     </task>
     <servers />
   </component>

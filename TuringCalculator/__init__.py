@@ -1,5 +1,17 @@
-# 
+# TURING CALCULATOR
 # ----------------------------------------------------------------------------------------------------------------
+"""
+    A simple calculator that can perform the following operations:
+
+    - Addition: add two numbers and return the result.
+    - Subtraction: subtract two numbers and return the result.
+    - Multiplication: multiply two numbers and return the result.
+    - Division: divide two numbers and return the result.
+    - Find root: take the n-th root of a number and return the result.
+    - Reset memory: reset the calculator's memory to 0.
+"""
+
+__version__ = "0.0.1"
 
 
 # START --------
@@ -7,11 +19,6 @@ import doctest
 
 
 # EXECUTION ----
-def main():
-    
-    return
-
-
 class Calculator(object):
     """
     A simple calculator that can perform the following operations:
