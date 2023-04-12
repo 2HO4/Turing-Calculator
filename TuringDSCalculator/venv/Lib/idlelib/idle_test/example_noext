@@ -1,0 +1,4 @@
+#!usr/bin/venv python
+
+def example_function(some_argument):
+    pass

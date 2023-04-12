@@ -1,0 +1,13 @@
+prefix=D:/OneDrive - UvA/Misc/Dang Khoa - Personal/Learn/Data Science/Turing/1 Data Wrangling with Python/S1 project/calculator/env_mamba/Library
+exec_prefix=D:/OneDrive - UvA/Misc/Dang Khoa - Personal/Learn/Data Science/Turing/1 Data Wrangling with Python/S1 project/calculator/env_mamba/Library
+libdir=D:/OneDrive - UvA/Misc/Dang Khoa - Personal/Learn/Data Science/Turing/1 Data Wrangling with Python/S1 project/calculator/env_mamba/Library/lib
+sharedlibdir=D:/OneDrive - UvA/Misc/Dang Khoa - Personal/Learn/Data Science/Turing/1 Data Wrangling with Python/S1 project/calculator/env_mamba/Library/lib
+includedir=D:/OneDrive - UvA/Misc/Dang Khoa - Personal/Learn/Data Science/Turing/1 Data Wrangling with Python/S1 project/calculator/env_mamba/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
