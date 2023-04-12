@@ -4,7 +4,7 @@
 
 # START --------
 import unittest
-from TuringCalculator import Calculator
+from TuringDSCalculator import Calculator
 from math import nan, inf
 
 

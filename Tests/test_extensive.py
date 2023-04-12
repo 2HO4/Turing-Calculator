@@ -3,7 +3,7 @@
 
 
 # START --------
-from TuringCalculator import Calculator, LIMIT
+from TuringDSCalculator import Calculator, LIMIT
 from hypothesis import given, assume, strategies, settings, HealthCheck
 from math import isnan, isinf, fsum, isclose
 

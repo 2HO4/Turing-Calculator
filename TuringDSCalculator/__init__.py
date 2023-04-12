@@ -65,9 +65,9 @@ class Calculator(object):
     0
     """
 
-    def __init__(self, default: float=0) -> None:
+    def __init__(self, default: float = 0) -> None:
         self.__value = default
-        
+
     def add(self, term: float) -> None:
         """
         Usage: increase current value by <term>

@@ -1,6 +1,6 @@
-# Turing Calculator
+# Turing Data Science Calculator
 
-`TuringCalculator` contains simple Calculator that can perform the following operations:
+`TuringDSCalculator` contains simple Calculator that can perform the following operations:
 
 -   _add_ - add the current value with a number.
 -   _subtract_ - subtract a number from the current value.
@@ -14,7 +14,7 @@ Its memory is limited at 1.7976931348623157e+308
 ## Installation
 
 ```sh
-pip install TuringCalculator
+pip install TuringDSCalculator
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ pip install TuringCalculator
 Using the 5 operations in Calculator:
 
 ```python
->>> from TuringCalculator import Calculator
+>>> from TuringDSCalculator import Calculator
 
 # Create a new instance of Calculator
 calculator = Calculator()
