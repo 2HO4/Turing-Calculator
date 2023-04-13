@@ -72,6 +72,22 @@ print(result) # Output: 0.0
 
 ```
 
+## Testing Calculator
+Apart from the preliminary doc test, the main tests are divided into 2 versions - the basic functionalities of Turing DS Calculator and the extensiveness of its capabilities. To run all tests, you can simply run in your shell command environment:
+```sh
+pip install pytest
+pytest
+```
+If you prefer to run individual tests, you can run:
+```sh
+pytest Tests/test_basic.py
+pytest Tests/test_extensive.py
+
+pip install unittest
+python -m unittest Tests/test_basic.py
+
+```
+
 ## Contributing
 I welcome pull requests for this Sprint 1 project. If you plan to make significant changes, I recommend that you open an issue first to discuss your proposed changes. Please ensure that you add or update tests as appropriate.
 
