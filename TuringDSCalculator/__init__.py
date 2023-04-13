@@ -47,13 +47,13 @@ class Calculator(object):
     >>> calculator = Calculator()
     >>> calculator.add(9)
     >>> calculator.getResult()
-    9
+    9.0
     >>> calculator.subtract(5)
     >>> calculator.getResult()
-    4
+    4.0
     >>> calculator.multiply(6)
     >>> calculator.getResult()
-    24
+    24.0
     >>> calculator.divided(3)
     >>> calculator.getResult()
     8.0
