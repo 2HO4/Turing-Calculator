@@ -1,4 +1,4 @@
-"""Tests for distutils.cygwinccompiler."""
+"""tests for distutils.cygwinccompiler."""
 import unittest
 import sys
 import os

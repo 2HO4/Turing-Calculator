@@ -1,4 +1,4 @@
-"""Tests for distutils.filelist."""
+"""tests for distutils.filelist."""
 import os
 import re
 import unittest

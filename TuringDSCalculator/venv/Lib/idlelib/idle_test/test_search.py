@@ -9,7 +9,7 @@ from idlelib import searchengine
 
 # Does not currently test the event handler wrappers.
 # A usage test should simulate clicks and check highlighting.
-# Tests need to be coordinated with SearchDialogBase tests
+# tests need to be coordinated with SearchDialogBase tests
 # to avoid duplication.
 
 

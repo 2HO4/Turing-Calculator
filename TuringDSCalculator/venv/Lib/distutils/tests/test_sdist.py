@@ -1,4 +1,4 @@
-"""Tests for distutils.command.sdist."""
+"""tests for distutils.command.sdist."""
 import os
 import tarfile
 import unittest

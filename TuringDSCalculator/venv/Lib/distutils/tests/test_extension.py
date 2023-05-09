@@ -1,4 +1,4 @@
-"""Tests for distutils.extension."""
+"""tests for distutils.extension."""
 import unittest
 import os
 import warnings

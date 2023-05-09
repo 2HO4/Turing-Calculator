@@ -82,7 +82,7 @@ def bind_port(sock, host=HOST):
     important as many tests may be running simultaneously, especially in a
     buildbot environment.  This method raises an exception if the sock.family
     is AF_INET and sock.type is SOCK_STREAM, *and* the socket has SO_REUSEADDR
-    or SO_REUSEPORT set on it.  Tests should *never* set these socket options
+    or SO_REUSEPORT set on it.  tests should *never* set these socket options
     for TCP/IP sockets.  The only case for setting these options is testing
     multicasting via multiple UDP sockets.
 

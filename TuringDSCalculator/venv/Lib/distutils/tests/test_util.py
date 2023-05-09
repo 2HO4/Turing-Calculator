@@ -1,4 +1,4 @@
-"""Tests for distutils.util."""
+"""tests for distutils.util."""
 import os
 import sys
 import unittest

@@ -1,4 +1,4 @@
-"""Tests for distutils._msvccompiler."""
+"""tests for distutils._msvccompiler."""
 import sys
 import unittest
 import os

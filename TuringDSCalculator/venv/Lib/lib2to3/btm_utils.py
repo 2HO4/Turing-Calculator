@@ -271,7 +271,7 @@ def get_characteristic_subpattern(subpatterns):
     return max(subpatterns, key=len)
 
 def rec_test(sequence, test_func):
-    """Tests test_func on all items of sequence and items of included
+    """tests test_func on all items of sequence and items of included
     sub-iterables"""
     for x in sequence:
         if isinstance(x, (list, tuple)):

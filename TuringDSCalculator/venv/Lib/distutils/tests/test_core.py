@@ -1,4 +1,4 @@
-"""Tests for distutils.core."""
+"""tests for distutils.core."""
 
 import io
 import distutils.core

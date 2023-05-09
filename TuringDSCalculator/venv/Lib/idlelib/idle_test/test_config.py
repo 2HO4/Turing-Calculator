@@ -13,7 +13,7 @@ from unittest import mock
 import idlelib
 from idlelib.idle_test.mock_idle import Func
 
-# Tests should not depend on fortuitous user configurations.
+# tests should not depend on fortuitous user configurations.
 # They must not affect actual user .cfg files.
 # Replace user parsers with empty parsers that cannot be saved
 # due to getting '' as the filename when created.

@@ -12,7 +12,7 @@ from tkinter import (Tk, StringVar, IntVar, BooleanVar, DISABLED, NORMAL)
 from idlelib import config
 from idlelib.configdialog import idleConf, changes, tracers
 
-# Tests should not depend on fortuitous user configurations.
+# tests should not depend on fortuitous user configurations.
 # They must not affect actual user .cfg files.
 # Use solution from test_config: empty parsers with no filename.
 usercfg = idleConf.userCfg

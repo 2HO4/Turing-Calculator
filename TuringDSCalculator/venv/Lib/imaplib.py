@@ -1638,7 +1638,7 @@ if __name__ == '__main__':
         print('\nAll tests OK.')
 
     except:
-        print('\nTests failed.')
+        print('\ntests failed.')
 
         if not Debug:
             print('''

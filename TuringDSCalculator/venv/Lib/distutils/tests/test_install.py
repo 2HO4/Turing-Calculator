@@ -1,4 +1,4 @@
-"""Tests for distutils.command.install."""
+"""tests for distutils.command.install."""
 
 import os
 import sys

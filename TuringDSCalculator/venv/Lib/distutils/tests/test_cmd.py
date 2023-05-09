@@ -1,4 +1,4 @@
-"""Tests for distutils.cmd."""
+"""tests for distutils.cmd."""
 import unittest
 import os
 from test.support import captured_stdout, run_unittest

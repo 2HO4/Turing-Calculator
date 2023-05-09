@@ -13,7 +13,7 @@ class TestCalculator(unittest.TestCase):
     def setUp(self):
         self.calculator = Calculator()
     
-    # Tests for functionalities of individual methods
+    # tests for functionalities of individual methods
     def test_add(self):
         self.calculator.add(2)
         self.assertEqual(self.calculator.getResult(), 2)
@@ -46,7 +46,7 @@ class TestCalculator(unittest.TestCase):
         self.calculator.reset()
         self.assertEqual(self.calculator.getResult(), 0)
         
-    # Tests for types of arguments
+    # tests for types of arguments
     def test_add_arg_type(self):
         with self.assertRaises(TypeError):
             self.calculator.add('2')
@@ -67,7 +67,7 @@ class TestCalculator(unittest.TestCase):
         with self.assertRaises(TypeError):
             self.calculator.root('3')
 
-    # Tests for number of arguments
+    # tests for number of arguments
     def test_add_n_args(self):
         with self.assertRaises(TypeError):
             self.calculator.add(2, 3)

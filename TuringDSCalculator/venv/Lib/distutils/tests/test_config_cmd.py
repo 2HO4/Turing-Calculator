@@ -1,4 +1,4 @@
-"""Tests for distutils.command.config."""
+"""tests for distutils.command.config."""
 import unittest
 import os
 import sys

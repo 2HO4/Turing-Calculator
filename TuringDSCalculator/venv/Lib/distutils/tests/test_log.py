@@ -1,4 +1,4 @@
-"""Tests for distutils.log"""
+"""tests for distutils.log"""
 
 import io
 import sys

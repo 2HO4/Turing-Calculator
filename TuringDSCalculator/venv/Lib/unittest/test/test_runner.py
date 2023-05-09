@@ -1153,7 +1153,7 @@ class TestModuleCleanUp(unittest.TestCase):
 
 
 class Test_TextTestRunner(unittest.TestCase):
-    """Tests for TextTestRunner."""
+    """tests for TextTestRunner."""
 
     def setUp(self):
         # clean the environment from pre-existing PYTHONWARNINGS to make

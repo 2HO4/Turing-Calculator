@@ -80,11 +80,11 @@ pytest
 ```
 If you prefer to run individual tests, you can run:
 ```sh
-pytest Tests/test_basic.py
-pytest Tests/test_extensive.py
+pytest tests/test_basic.py
+pytest tests/test_extensive.py
 
 pip install unittest
-python -m unittest Tests/test_basic.py
+python -m unittest tests/test_basic.py
 
 ```
 

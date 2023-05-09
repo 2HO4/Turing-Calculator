@@ -126,7 +126,7 @@ class IndentAndNewlineTest(unittest.TestCase):
         get = text.get
         nl = w.newline_and_indent_event
 
-        TestInfo = namedtuple('Tests', ['label', 'text', 'expected', 'mark'])
+        TestInfo = namedtuple('tests', ['label', 'text', 'expected', 'mark'])
 
         tests = (TestInfo('Empty line inserts with no indent.',
                           '  \n  def __init__(self):',

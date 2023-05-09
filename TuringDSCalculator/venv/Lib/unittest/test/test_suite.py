@@ -41,7 +41,7 @@ class Test_TestSuite(unittest.TestCase, TestEquality):
     ################################################################
     ### /Set up attributes needed by inherited tests
 
-    ### Tests for TestSuite.__init__
+    ### tests for TestSuite.__init__
     ################################################################
 
     # "class TestSuite([tests])"
@@ -118,7 +118,7 @@ class Test_TestSuite(unittest.TestCase, TestEquality):
         self.assertEqual(suite.countTestCases(), 2)
 
     ################################################################
-    ### /Tests for TestSuite.__init__
+    ### /tests for TestSuite.__init__
 
     # Container types should support the iter protocol
     def test_iter(self):

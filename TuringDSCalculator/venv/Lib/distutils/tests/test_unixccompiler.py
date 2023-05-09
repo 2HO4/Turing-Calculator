@@ -1,4 +1,4 @@
-"""Tests for distutils.unixccompiler."""
+"""tests for distutils.unixccompiler."""
 import sys
 import unittest
 from test.support import run_unittest

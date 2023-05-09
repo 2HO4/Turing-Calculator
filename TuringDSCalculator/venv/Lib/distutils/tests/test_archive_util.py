@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Tests for distutils.archive_util."""
+"""tests for distutils.archive_util."""
 import unittest
 import os
 import sys

@@ -11783,9 +11783,9 @@ topics = {'assert': 'The "assert" statement\n'
                    'return a copy\n'
                    '   of the original string:\n'
                    '\n'
-                   "      >>> 'MiscTests'.removesuffix('Tests')\n"
+                   "      >>> 'MiscTests'.removesuffix('tests')\n"
                    "      'Misc'\n"
-                   "      >>> 'TmpDirMixin'.removesuffix('Tests')\n"
+                   "      >>> 'TmpDirMixin'.removesuffix('tests')\n"
                    "      'TmpDirMixin'\n"
                    '\n'
                    '   New in version 3.9.\n'

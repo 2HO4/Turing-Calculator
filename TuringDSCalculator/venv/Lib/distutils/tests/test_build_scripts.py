@@ -1,4 +1,4 @@
-"""Tests for distutils.command.build_scripts."""
+"""tests for distutils.command.build_scripts."""
 
 import os
 import unittest

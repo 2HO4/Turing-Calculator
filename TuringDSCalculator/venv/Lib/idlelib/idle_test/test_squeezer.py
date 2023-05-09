@@ -32,7 +32,7 @@ def get_test_tk_root(test_instance):
 
 
 class CountLinesTest(unittest.TestCase):
-    """Tests for the count_lines_with_wrapping function."""
+    """tests for the count_lines_with_wrapping function."""
     def check(self, expected, text, linewidth):
         return self.assertEqual(
             expected,
@@ -79,7 +79,7 @@ class CountLinesTest(unittest.TestCase):
 
 
 class SqueezerTest(unittest.TestCase):
-    """Tests for the Squeezer class."""
+    """tests for the Squeezer class."""
     def make_mock_editor_window(self, with_text_widget=False):
         """Create a mock EditorWindow instance."""
         editwin = NonCallableMagicMock()
@@ -302,7 +302,7 @@ class SqueezerTest(unittest.TestCase):
 
 
 class ExpandingButtonTest(unittest.TestCase):
-    """Tests for the ExpandingButton class."""
+    """tests for the ExpandingButton class."""
     # In these tests the squeezer instance is a mock, but actual tkinter
     # Text and Button instances are created.
     def make_mock_squeezer(self):

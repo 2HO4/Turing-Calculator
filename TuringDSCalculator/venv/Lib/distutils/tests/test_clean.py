@@ -1,4 +1,4 @@
-"""Tests for distutils.command.clean."""
+"""tests for distutils.command.clean."""
 import os
 import unittest
 

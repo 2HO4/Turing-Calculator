@@ -1,4 +1,4 @@
-"""Tests for distutils.command.install_headers."""
+"""tests for distutils.command.install_headers."""
 import os
 import unittest
 

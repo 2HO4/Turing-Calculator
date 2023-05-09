@@ -33,7 +33,7 @@ class Test_TestLoader(unittest.TestCase):
         loader = unittest.TestLoader()
         self.assertEqual([], loader.errors)
 
-    ### Tests for TestLoader.loadTestsFromTestCase
+    ### tests for TestLoader.loadTestsFromTestCase
     ################################################################
 
     # "Return a suite of all test cases contained in the TestCase-derived
@@ -103,9 +103,9 @@ class Test_TestLoader(unittest.TestCase):
         self.assertEqual(list(suite), [Foo('runTest')])
 
     ################################################################
-    ### /Tests for TestLoader.loadTestsFromTestCase
+    ### /tests for TestLoader.loadTestsFromTestCase
 
-    ### Tests for TestLoader.loadTestsFromModule
+    ### tests for TestLoader.loadTestsFromModule
     ################################################################
 
     # "This method searches `module` for classes derived from TestCase"
@@ -358,9 +358,9 @@ class Test_TestLoader(unittest.TestCase):
         self.assertRaisesRegex(TypeError, "some failure", test.m)
 
     ################################################################
-    ### /Tests for TestLoader.loadTestsFromModule()
+    ### /tests for TestLoader.loadTestsFromModule()
 
-    ### Tests for TestLoader.loadTestsFromName()
+    ### tests for TestLoader.loadTestsFromName()
     ################################################################
 
     # "The specifier name is a ``dotted name'' that may resolve either to
@@ -733,9 +733,9 @@ class Test_TestLoader(unittest.TestCase):
                 del sys.modules[module_name]
 
     ################################################################
-    ### Tests for TestLoader.loadTestsFromName()
+    ### tests for TestLoader.loadTestsFromName()
 
-    ### Tests for TestLoader.loadTestsFromNames()
+    ### tests for TestLoader.loadTestsFromNames()
     ################################################################
 
     def check_deferred_error(self, loader, suite):
@@ -1158,9 +1158,9 @@ class Test_TestLoader(unittest.TestCase):
                 del sys.modules[module_name]
 
     ################################################################
-    ### /Tests for TestLoader.loadTestsFromNames()
+    ### /tests for TestLoader.loadTestsFromNames()
 
-    ### Tests for TestLoader.getTestCaseNames()
+    ### tests for TestLoader.getTestCaseNames()
     ################################################################
 
     # "Return a sorted sequence of method names found within testCaseClass"
@@ -1278,9 +1278,9 @@ class Test_TestLoader(unittest.TestCase):
         self.assertEqual(loader.getTestCaseNames(MyTest), [])
 
     ################################################################
-    ### /Tests for TestLoader.getTestCaseNames()
+    ### /tests for TestLoader.getTestCaseNames()
 
-    ### Tests for TestLoader.testMethodPrefix
+    ### tests for TestLoader.testMethodPrefix
     ################################################################
 
     # "String giving the prefix of method names which will be interpreted as
@@ -1380,9 +1380,9 @@ class Test_TestLoader(unittest.TestCase):
         self.assertEqual(loader.testMethodPrefix, 'test')
 
     ################################################################
-    ### /Tests for TestLoader.testMethodPrefix
+    ### /tests for TestLoader.testMethodPrefix
 
-    ### Tests for TestLoader.sortTestMethodsUsing
+    ### tests for TestLoader.sortTestMethodsUsing
     ################################################################
 
     # "Function to be used to compare method names when sorting them in
@@ -1504,9 +1504,9 @@ class Test_TestLoader(unittest.TestCase):
         self.assertEqual(set(loader.getTestCaseNames(Foo)), set(test_names))
 
     ################################################################
-    ### /Tests for TestLoader.sortTestMethodsUsing
+    ### /tests for TestLoader.sortTestMethodsUsing
 
-    ### Tests for TestLoader.suiteClass
+    ### tests for TestLoader.suiteClass
     ################################################################
 
     # "Callable object that constructs a test suite from a list of tests."

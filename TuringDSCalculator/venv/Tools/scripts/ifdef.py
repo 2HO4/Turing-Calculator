@@ -19,7 +19,7 @@
 
 # Restrictions: There should be no comments or other symbols on the
 # #if(n)def lines.  The effect of #define/#undef commands in the input
-# file or in included files is not taken into account.  Tests using
+# file or in included files is not taken into account.  tests using
 # #if and the defined() pseudo function are not recognized.  The #elif
 # command is not recognized.  Improperly nesting is not detected.
 # Lines that look like preprocessor commands but which are actually

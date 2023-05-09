@@ -1,4 +1,4 @@
-"""Tests for distutils.command.build."""
+"""tests for distutils.command.build."""
 import unittest
 import os
 import sys

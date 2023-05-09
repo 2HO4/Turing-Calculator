@@ -1,4 +1,4 @@
-"""Tests for distutils.version."""
+"""tests for distutils.version."""
 import unittest
 from distutils.version import LooseVersion
 from distutils.version import StrictVersion

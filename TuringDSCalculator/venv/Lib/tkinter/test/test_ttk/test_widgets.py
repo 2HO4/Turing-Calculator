@@ -54,7 +54,7 @@ class StandardTtkOptionsTests(StandardOptionsTests):
 
 
 class WidgetTest(AbstractTkTest, unittest.TestCase):
-    """Tests methods available in every ttk widget."""
+    """tests methods available in every ttk widget."""
 
     def setUp(self):
         super().setUp()
